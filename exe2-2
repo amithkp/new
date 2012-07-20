@@ -1,0 +1,12 @@
+var count = 0, something = 1 , power =  prompt("Enter the power for the number two:") ;
+var nwpower = Number(power); 
+if (power == null || power == "")
+   alert("wrong entry , try refresh page : press F5");
+else {
+   while (count < nwpower) {
+      something = something * 2;
+      count = count + 1;
+    }
+alert("2^"+nwpower+"\t=\t"+something);
+}  
+
